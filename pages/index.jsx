@@ -92,7 +92,7 @@ export async function getServerSideProps(context) {
 
 		if (!articles) {
 			throw new Error(
-				'No articles returned. Make sure the objectName and params are valid!',
+				'No articles returned. Make sure the objectName and params are valid! ',
 			);
 		}
 
